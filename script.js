@@ -68,14 +68,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const navMenu = document.getElementById('nav-menu');
 
     if (mobileToggleBtn && navMenu) {
-        mobileToggleBtn.addEventListener('click', () => {
-            navMenu.classList.toggle('mobile-active');
+        mobileToggleBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const isOpen = navMenu.classList.toggle('mobile-active');
+            mobileToggleBtn.classList.toggle('active', isOpen);
         });
 
         navLinks.forEach(link => {
             link.addEventListener('click', () => {
                 navMenu.classList.remove('mobile-active');
+                mobileToggleBtn.classList.remove('active');
             });
+        });
+
+        // Close mobile drawer when clicking outside header
+        document.addEventListener('click', (e) => {
+            if (header && !header.contains(e.target) && navMenu.classList.contains('mobile-active')) {
+                navMenu.classList.remove('mobile-active');
+                mobileToggleBtn.classList.remove('active');
+            }
         });
     }
 
