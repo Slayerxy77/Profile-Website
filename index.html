@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shubham Sinha - 1st Year B.Tech CSE (Core) Student at Adamas University, Barasat. Aspiring Software Developer skilled in Python, C, C++, and Problem Solving.">
+    <meta name="author" content="Shubham Sinha">
+    <meta property="og:title" content="Shubham Sinha | B.Tech CSE Student Portfolio">
+    <meta property="og:description" content="Personal portfolio of Shubham Sinha - B.Tech CSE student at Adamas University, Barasat. Explore skills in Python, C, C++, LeetCode profile, and education.">
+    <meta property="og:type" content="website">
+    
+    <title>Shubham Sinha | B.Tech CSE Student & Aspiring Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Gradient Background Elements -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#hero" class="logo-link">
+                <div class="logo-icon">SS</div>
+                <span class="logo-text">Shubham<span class="highlight">.dev</span></span>
+            </a>
+
+            <!-- Status Pill -->
+            <div class="status-pill">
+                <span class="status-dot"></span>
+                <span class="status-text">1st Year B.Tech CSE @ Adamas</span>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="nav" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Theme Toggle & Action -->
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button id="mobile-toggle" class="mobile-toggle-btn" aria-label="Toggle mobile menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="greeting-tag">
+                        <span class="wave-emoji">👋</span> Hello, welcome to my portfolio
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Shubham Sinha</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span id="typewriter" class="typewriter"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        First-year B.Tech Computer Science & Engineering (Core) student at <strong>Adamas University, Barasat</strong> (hailing from Howrah). Intermediate in <strong>Python</strong> & <strong>C</strong>, and currently learning <strong>C++</strong> (Beginner Level). Sharpening problem-solving skills daily on LeetCode.
+                    </p>
+
+                    <!-- Tech Stack Badges -->
+                    <div class="hero-tech-stack">
+                        <span class="tech-badge">Python (Intermediate)</span>
+                        <span class="tech-badge">C (Intermediate)</span>
+                        <span class="tech-badge">C++ (Beginner)</span>
+                        <span class="tech-badge">LeetCode</span>
+                        <span class="tech-badge">VS Code</span>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="hero-cta-group">
+                        <a href="#about" class="btn btn-primary">
+                            About Me
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                        <button id="btn-download-cv" class="btn btn-ghost" title="Download Resume">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                            Resume
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Avatar Card with Shubham's Photo -->
+                <div class="hero-visual">
+                    <div class="avatar-card-wrapper" id="avatar-card">
+                        <div class="avatar-glow"></div>
+                        <div class="avatar-card">
+                            <img src="assets/profile.jpg" alt="Shubham Sinha Profile Photo" class="avatar-img">
+                            <div class="avatar-overlay">
+                                <span class="badge-role">CSE Student @ Adamas, Barasat</span>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badges -->
+                        <div class="floating-badge badge-1">
+                            <span class="icon">🐍</span> Python (Inter.)
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <span class="icon">⚙️</span> C (Inter.) & C++
+                        </div>
+                        <div class="floating-badge badge-3">
+                            <span class="icon">💡</span> LeetCode Solver
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Banner -->
+        <section class="stats-section">
+            <div class="container stats-container">
+                <div class="stat-card">
+                    <span class="stat-number" data-target="82">0</span><span class="stat-percent">%</span>
+                    <span class="stat-label">10th Grade Score</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" data-target="72">0</span><span class="stat-percent">%</span>
+                    <span class="stat-label">12th Grade Score</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" data-target="1">0</span><span class="stat-plus">st Year</span>
+                    <span class="stat-label">B.Tech CSE (Core)</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" data-target="100">0</span><span class="stat-plus">%</span>
+                    <span class="stat-label">Dedication to Learn</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Introduction</span>
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card glass-card">
+                        <div class="card-icon">🎓</div>
+                        <h3>Who I Am</h3>
+                        <p>
+                            I am a first-year <strong>B.Tech Computer Science & Engineering (Core)</strong> student at <strong>Adamas University, Barasat</strong>, residing in <strong>Howrah, West Bengal</strong>. I have a genuine curiosity for programming and discovering innovative ideas.
+                        </p>
+                    </div>
+
+                    <div class="about-card glass-card">
+                        <div class="card-icon">🧠</div>
+                        <h3>Problem Solving & Tech Stack</h3>
+                        <p>
+                            I have built an <strong>Intermediate level</strong> proficiency in <strong>Python</strong> and <strong>C</strong>, and I also know <strong>C++ at a Beginner level</strong>. I regularly sharpen my logic on <strong>LeetCode</strong> by solving easy-level problems.
+                        </p>
+                    </div>
+
+                    <div class="about-card glass-card">
+                        <div class="card-icon">🎯</div>
+                        <h3>My Future Goal</h3>
+                        <p>
+                            My goal is to continuously strengthen my core computer science fundamentals and problem-solving skills—growing from easy-level challenges to tackling complex algorithms and building impactful real-world projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Academic Background</span>
+                    <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Current College -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">B.Tech in Computer Science & Engineering (Core)</h3>
+                                    <span class="company-name">Adamas University (Barasat, Kolkata)</span>
+                                </div>
+                                <span class="timeline-date">1st Year (Present)</span>
+                            </div>
+                            <p class="timeline-text">
+                                Building core technical knowledge in Computer Science. Currently studying Programming Fundamentals, Digital Logic, Discrete Mathematics, and Problem Solving using Python, C, and C++.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Class 12th -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">Higher Secondary (Class 12th)</h3>
+                                    <span class="company-name">West Bengal Board / School</span>
+                                </div>
+                                <span class="timeline-date">Completed</span>
+                            </div>
+                            <p class="timeline-text">
+                                Achieved <strong>72%</strong> with a focus on Science & Physics, Chemistry, and Mathematics fundamentals.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Class 10th -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">Secondary School (Class 10th)</h3>
+                                    <span class="company-name">West Bengal Board / School</span>
+                                </div>
+                                <span class="timeline-date">Completed</span>
+                            </div>
+                            <p class="timeline-text">
+                                Achieved <strong>82%</strong> with high marks in Mathematics and Science subjects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Technical & Soft Skills</span>
+                    <h2 class="section-title">Skills & <span class="gradient-text">Competencies</span></h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Skill Category Filter Buttons -->
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-skill-filter="all">All Skills</button>
+                    <button class="filter-btn" data-skill-filter="languages">Languages</button>
+                    <button class="filter-btn" data-skill-filter="subjects">CS Subjects</button>
+                    <button class="filter-btn" data-skill-filter="tools">Tools & Soft Skills</button>
+                </div>
+
+                <!-- Skills Grid -->
+                <div class="skills-grid" id="skills-grid">
+                    <!-- Python -->
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-header">
+                            <div class="skill-title-group">
+                                <span class="skill-icon">🐍</span>
+                                <h4>Python Programming</h4>
+                            </div>
+                            <span class="skill-percentage">Intermediate</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="85%"></div>
+                        </div>
+                        <p class="skill-desc">Data structures, syntax fundamentals, logic implementation & LeetCode problem solving.</p>
+                    </div>
+
+                    <!-- C Language -->
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-header">
+                            <div class="skill-title-group">
+                                <span class="skill-icon">⚙️</span>
+                                <h4>C Language</h4>
+                            </div>
+                            <span class="skill-percentage">Intermediate</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="80%"></div>
+                        </div>
+                        <p class="skill-desc">Pointers, memory management concepts, arrays, loops, and procedural control statements.</p>
+                    </div>
+
+                    <!-- C++ Language -->
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-header">
+                            <div class="skill-title-group">
+                                <span class="skill-icon">🚀</span>
+                                <h4>C++ Language</h4>
+                            </div>
+                            <span class="skill-percentage">Beginner</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="65%"></div>
+                        </div>
+                        <p class="skill-desc">Basic OOP concepts, STL header fundamentals, I/O streams, and syntax practice.</p>
+                    </div>
+
+                    <!-- Core CS Subjects -->
+                    <div class="skill-card glass-card" data-category="subjects">
+                        <div class="skill-header">
+                            <div class="skill-title-group">
+                                <span class="skill-icon">📚</span>
+                                <h4>Programming Fundamentals</h4>
+                            </div>
+                            <span class="skill-percentage">Current Course</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="90%"></div>
+                        </div>
+                        <p class="skill-desc">Algorithm design, flowcharts, pseudo-code, and procedural thinking.</p>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="subjects">
+                        <div class="skill-header">
+                            <div class="skill-title-group">
+                                <span class="skill-icon">🔣</span>
+                                <h4>Discrete Mathematics & Logic</h4>
+                            </div>
+                            <span class="skill-percentage">Current Course</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="82%"></div>
+                        </div>
+                        <p class="skill-desc">Set theory, mathematical logic, Digital Logic & boolean algebra.</p>
+                    </div>
+
+                    <!-- Tools & Platforms -->
+                    <div class="skill-card glass-card" data-category="tools">
+                        <div class="skill-header">
+                            <div class="skill-title-group">
+                                <span class="skill-icon">💻</span>
+                                <h4>VS Code & LeetCode</h4>
+                            </div>
+                            <span class="skill-percentage">Daily Tools</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="88%"></div>
+                        </div>
+                        <p class="skill-desc">Code editing, debugging extensions, and online judge problem-solving.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Hands-on Work</span>
+                    <h2 class="section-title">Starter <span class="gradient-text">Projects</span></h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid" id="projects-grid">
+
+                    <!-- Project Card 1: Python CLI Tool -->
+                    <article class="project-card glass-card" data-category="python" data-project-id="project-1">
+                        <div class="project-image-wrapper placeholder-wrapper">
+                            <div class="placeholder-graphic">🐍</div>
+                            <span class="project-category-badge">Python</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Python Interactive CLI Calculator</h3>
+                            <p class="project-description">
+                                A command-line utility built in Python to perform mathematical operations, unit conversions, and sequence computations.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python 3</span>
+                                <span>CLI</span>
+                                <span>Functions</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    Code Repo
+                                </a>
+                                <button class="btn btn-sm btn-ghost view-details-btn">View Details</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2: C Programming Toolkit -->
+                    <article class="project-card glass-card" data-category="c" data-project-id="project-2">
+                        <div class="project-image-wrapper placeholder-wrapper">
+                            <div class="placeholder-graphic">⚙️</div>
+                            <span class="project-category-badge">C Language</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">C Array & Matrix Operations Toolkit</h3>
+                            <p class="project-description">
+                                Practice C program implementing matrix addition, multiplication, array sorting, and pointer-based operations.
+                            </p>
+                            <div class="project-tech">
+                                <span>C Language</span>
+                                <span>Pointers</span>
+                                <span>Arrays</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    Code Repo
+                                </a>
+                                <button class="btn btn-sm btn-ghost view-details-btn">View Details</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3: LeetCode Solutions Vault -->
+                    <article class="project-card glass-card" data-category="python" data-project-id="project-3">
+                        <div class="project-image-wrapper placeholder-wrapper">
+                            <div class="placeholder-graphic">💡</div>
+                            <span class="project-category-badge">LeetCode</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">LeetCode Solutions Repository</h3>
+                            <p class="project-description">
+                                A structured repository containing my Python solutions for LeetCode easy-level array and string problems.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>LeetCode</span>
+                                <span>Algorithms</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    Code Repo
+                                </a>
+                                <button class="btn btn-sm btn-ghost view-details-btn">View Details</button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="projects-note glass-card">
+                    <p>🚀 <strong>More Projects Coming Soon!</strong> As I progress further in my 1st Year B.Tech CSE curriculum at Adamas University, Barasat, I will be adding new web and software projects here.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Activities Section -->
+        <section class="section achievements-section" id="achievements">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Milestones</span>
+                    <h2 class="section-title">Achievements & <span class="gradient-text">Activities</span></h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card glass-card">
+                        <div class="card-icon">⚡</div>
+                        <h3>LeetCode Problem Solver</h3>
+                        <p>
+                            Actively practicing algorithmic problem-solving on <strong>LeetCode</strong> using Python. Solved several easy-level problems focusing on arrays, strings, and mathematical logic.
+                        </p>
+                    </div>
+
+                    <div class="about-card glass-card">
+                        <div class="card-icon">🏛️</div>
+                        <h3>Adamas CSE Core Member</h3>
+                        <p>
+                            Active participant in first-year computer science department activities, coding workshops, and peer discussion sessions at Adamas University, Barasat.
+                        </p>
+                    </div>
+
+                    <div class="about-card glass-card">
+                        <div class="card-icon">🚀</div>
+                        <h3>Continuous Learner</h3>
+                        <p>
+                            Dedicated to self-improvement through online courses, coding practice, and exploring emerging software development trends.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info Cards -->
+                    <div class="contact-info">
+                        <div class="contact-card glass-card">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email Address</h4>
+                                <a href="mailto:shubhamsinhaofficial77@gmail.com" class="contact-link">shubhamsinhaofficial77@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card glass-card">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Howrah, West Bengal, India<br><small style="color: var(--text-muted);">(Studying at Adamas University, Barasat)</small></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card glass-card">
+                            <div class="contact-icon">🌐</div>
+                            <div>
+                                <h4>Social & Profiles</h4>
+                                <div class="social-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                    </a>
+                                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                                    </a>
+                                    <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="LeetCode Profile">
+                                        <span style="font-weight: 800; font-size: 0.85rem; font-family: var(--font-mono);">LC</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Form -->
+                    <form class="contact-form glass-card" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="contact-name">Your Name</label>
+                            <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Alex Johnson" required>
+                            <span class="error-msg" id="name-error">Please enter your name.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email">Your Email</label>
+                            <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. alex@example.com" required>
+                            <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Project Inquiry / Connect" required>
+                            <span class="error-msg" id="subject-error">Please enter a subject.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="label-row">
+                                <label for="contact-message">Message</label>
+                                <span class="char-count"><span id="current-chars">0</span>/500</span>
+                            </div>
+                            <textarea id="contact-message" name="message" class="form-input form-textarea" rows="4" maxlength="500" placeholder="Type your message here..." required></textarea>
+                            <span class="error-msg" id="message-error">Please enter your message (min 10 chars).</span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-spinner hidden"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#hero" class="logo-link">
+                    <div class="logo-icon">SS</div>
+                    <span class="logo-text">Shubham<span class="highlight">.dev</span></span>
+                </a>
+                <p class="copyright-text">
+                    &copy; 2026 Shubham Sinha | B.Tech CSE (Core), Adamas University, Barasat.
+                </p>
+            </div>
+
+            <!-- Back to top button -->
+            <a href="#hero" class="back-to-top" aria-label="Back to top">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Interactive Project / Resume Modal -->
+    <div class="modal-overlay" id="project-modal" aria-hidden="true">
+        <div class="modal-card glass-card">
+            <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-body" id="modal-body">
+                <!-- Content injected dynamically via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification System -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
